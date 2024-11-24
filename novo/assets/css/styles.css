@@ -33,6 +33,7 @@ h1 {
   position: relative;
   cursor: default;
   padding: 5%;
+  margin: 5%;
 }
 h1::before{
   content: "";
@@ -65,6 +66,8 @@ h1::before{
     color: #FFFFFF;
     border: none;
     padding: 10px 15px;
+    margin: 5%;
+    text-align: center;
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Star Wars', sans-serif;
@@ -117,6 +120,10 @@ nav a:hover {
   max-width: 600px;
   margin: 0 auto;
 
+}
+#content{
+  display: grid;
+  grid-template-columns: 50% 50%;  
 }
 @media (max-width:780px) {
   #content{
