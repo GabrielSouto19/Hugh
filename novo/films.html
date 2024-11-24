@@ -9,50 +9,26 @@
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="assets/css/styles.css">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      padding: 20px;
-      background-color: #121212;
-      color: #f5f5f5;
     
-    }
     .container {
-        max-width: 600px;
+        max-width: 80%;
         margin: 0 auto;
         
     }
-    h1 {
-        text-align: center;
-        color: #ffd700;
-    }
+    
     .film {
         background: #333;
         padding: 10px;
-        margin: 10px 0;
+        margin: 10px ;
         border-radius: 5px;
     }
-    nav {
-        margin-bottom: 20px;
-    }
-    nav a {
-        color: #ffd700;
-        text-decoration: none;
-        margin-right: 10px;
-    }
-    nav a:hover {
-        text-decoration: underline;
-    }
+   
     #content{
       display: grid;
-      grid-template-columns: 50% 50%;
-  
+      grid-template-columns: 33% 33% 33%;  
 }
-.card{
-  /* margin: 3%;
-  padding: 10px;
-  width: 80%; */
-}
+
+
   </style>
 </head>
 <body>
@@ -70,7 +46,6 @@
     <div class="cabecalho">
       <h1>Star Wars Films</h1>
       <button id="loadData">Load Films</button>
-
     </div>
 
     <div id="content">
@@ -79,35 +54,6 @@
   </div>
   
   <script src="assets/js/films.js"></script>
-  <!-- <script>
-    const button = document.querySelector('#loadData');
-    const content = document.querySelector('#content');
-
-    button.addEventListener('click', () => {
-      content.innerHTML = '<p>Loading...</p>';
-
-      fetch('https://swapi.dev/api/films/')
-        .then(response => response.json())
-        .then(data => {
-          content.innerHTML = '';
-          data.results.forEach(film => {
-            const div = document.createElement('div');
-            div.className = 'film card';
-            div.innerHTML = `
-              <h3>${film.title}</h3>
-              <p>Director: ${film.director}</p>
-              <p>Producer: ${film.producer}</p>
-              <p>Release Date: ${film.release_date}</p>
-              <p>Opening Crawl:</p>
-              <p>${film.opening_crawl}</p>
-            `;
-            content.appendChild(div);
-          });
-        })
-        .catch(error => {
-          content.innerHTML = `<p>Error loading data: ${error}</p>`;
-        });
-    });
-  </script> -->
+ 
 </body>
 </html>
