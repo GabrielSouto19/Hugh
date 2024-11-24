@@ -141,3 +141,13 @@ Contributions are always welcome! If you find issues or wish to add new features
 📧 Email: youremail@example.com
 
 May the Force be with you! ✨
+
+## 🔗 References
+
+The following resources were helpful for learning and consultation during the development of this project:
+
+- [W3Schools - HTML Tutorial](https://www.w3schools.com/html/default.asp): Comprehensive guide to HTML5.
+- [W3Schools - CSS Tutorial](https://www.w3schools.com/css/default.asp): Resources for styling and responsive design.
+- [W3Schools - JavaScript Tutorial](https://www.w3schools.com/js/default.asp): Insights into DOM manipulation and API usage.
+
+---
