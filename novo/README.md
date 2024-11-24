@@ -149,5 +149,6 @@ The following resources were helpful for learning and consultation during the de
 - [W3Schools - HTML Tutorial](https://www.w3schools.com/html/default.asp): Comprehensive guide to HTML5.
 - [W3Schools - CSS Tutorial](https://www.w3schools.com/css/default.asp): Resources for styling and responsive design.
 - [W3Schools - JavaScript Tutorial](https://www.w3schools.com/js/default.asp): Insights into DOM manipulation and API usage.
+- [Github - README template](https://github.com/othneildrew/Best-README-Template):README template .
 
 ---
